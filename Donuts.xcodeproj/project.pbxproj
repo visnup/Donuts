@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85669CFF169BFE0A0016F1A8 /* App.png in Resources */ = {isa = PBXBuildFile; fileRef = 85669CFE169BFE0A0016F1A8 /* App.png */; };
+		85669D01169BFE100016F1A8 /* App@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85669D00169BFE100016F1A8 /* App@2x.png */; };
 		856C0198169BD8F50030E914 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856C0197169BD8F50030E914 /* UIKit.framework */; };
 		856C019A169BD8F50030E914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856C0199169BD8F50030E914 /* Foundation.framework */; };
 		856C019C169BD8F50030E914 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856C019B169BD8F50030E914 /* CoreGraphics.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85669CFE169BFE0A0016F1A8 /* App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App.png; sourceTree = "<group>"; };
+		85669D00169BFE100016F1A8 /* App@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App@2x.png"; sourceTree = "<group>"; };
 		856C0193169BD8F50030E914 /* Donuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856C0197169BD8F50030E914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		856C0199169BD8F50030E914 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +66,8 @@
 		856C0188169BD8F50030E914 = {
 			isa = PBXGroup;
 			children = (
+				85669CFE169BFE0A0016F1A8 /* App.png */,
+				85669D00169BFE100016F1A8 /* App@2x.png */,
 				856C019D169BD8F50030E914 /* Donuts */,
 				856C0196169BD8F50030E914 /* Frameworks */,
 				856C0194169BD8F50030E914 /* Products */,
@@ -175,6 +181,8 @@
 				856C01B4169BD8F50030E914 /* MainStoryboard_iPad.storyboard in Resources */,
 				856C01BE169BDA320030E914 /* 1.png in Resources */,
 				856C01C2169BDA940030E914 /* 2.png in Resources */,
+				85669CFF169BFE0A0016F1A8 /* App.png in Resources */,
+				85669D01169BFE100016F1A8 /* App@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +322,7 @@
 				856C01BC169BD8F50030E914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

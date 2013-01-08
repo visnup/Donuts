@@ -22,8 +22,8 @@
     
     UIImageView* imageView = [self imageView];
     [imageView setAnimationImages:images];
-    [imageView setAnimationDuration:0.2];
-	[imageView startAnimating];
+    [imageView setAnimationDuration:0.3];
+    [imageView startAnimating];
 }
 
 - (void)didReceiveMemoryWarning
