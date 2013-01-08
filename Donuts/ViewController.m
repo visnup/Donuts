@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray* images = [NSArray arrayWithObjects:[UIImage imageNamed:@"1.png"], [UIImage imageNamed:@"2.png"], nil];
+    
+    UIImageView* imageView = [self imageView];
+    [imageView setAnimationImages:images];
+    [imageView setAnimationDuration:0.2];
+	[imageView startAnimating];
 }
 
 - (void)didReceiveMemoryWarning

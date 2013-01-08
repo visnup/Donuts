@@ -19,6 +19,8 @@
 		856C01B1169BD8F50030E914 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856C01AF169BD8F50030E914 /* MainStoryboard_iPhone.storyboard */; };
 		856C01B4169BD8F50030E914 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856C01B2169BD8F50030E914 /* MainStoryboard_iPad.storyboard */; };
 		856C01B7169BD8F50030E914 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856C01B6169BD8F50030E914 /* ViewController.m */; };
+		856C01BE169BDA320030E914 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 856C01BD169BDA320030E914 /* 1.png */; };
+		856C01C2169BDA940030E914 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 856C01C1169BDA940030E914 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		856C01B3169BD8F50030E914 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		856C01B5169BD8F50030E914 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		856C01B6169BD8F50030E914 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		856C01BD169BDA320030E914 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		856C01C1169BDA940030E914 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		856C019D169BD8F50030E914 /* Donuts */ = {
 			isa = PBXGroup;
 			children = (
+				856C01BD169BDA320030E914 /* 1.png */,
+				856C01C1169BDA940030E914 /* 2.png */,
 				856C01A6169BD8F50030E914 /* AppDelegate.h */,
 				856C01A7169BD8F50030E914 /* AppDelegate.m */,
 				856C01AF169BD8F50030E914 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +173,8 @@
 				856C01AE169BD8F50030E914 /* Default-568h@2x.png in Resources */,
 				856C01B1169BD8F50030E914 /* MainStoryboard_iPhone.storyboard in Resources */,
 				856C01B4169BD8F50030E914 /* MainStoryboard_iPad.storyboard in Resources */,
+				856C01BE169BDA320030E914 /* 1.png in Resources */,
+				856C01C2169BDA940030E914 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
