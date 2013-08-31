@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0450"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "856C0192169BD8F50030E914"
+               BlueprintIdentifier = "8558215D17D28A1C0041734B"
                BuildableName = "Donuts.app"
                BlueprintName = "Donuts"
                ReferencedContainer = "container:Donuts.xcodeproj">
@@ -28,11 +28,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8558218117D28A1C0041734B"
+               BuildableName = "DonutsTests.xctest"
+               BlueprintName = "DonutsTests"
+               ReferencedContainer = "container:Donuts.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "856C0192169BD8F50030E914"
+            BlueprintIdentifier = "8558215D17D28A1C0041734B"
             BuildableName = "Donuts.app"
             BlueprintName = "Donuts"
             ReferencedContainer = "container:Donuts.xcodeproj">
@@ -51,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "856C0192169BD8F50030E914"
+            BlueprintIdentifier = "8558215D17D28A1C0041734B"
             BuildableName = "Donuts.app"
             BlueprintName = "Donuts"
             ReferencedContainer = "container:Donuts.xcodeproj">
@@ -69,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "856C0192169BD8F50030E914"
+            BlueprintIdentifier = "8558215D17D28A1C0041734B"
             BuildableName = "Donuts.app"
             BlueprintName = "Donuts"
             ReferencedContainer = "container:Donuts.xcodeproj">
